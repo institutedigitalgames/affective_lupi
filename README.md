@@ -51,8 +51,8 @@ This section provides guidelines on how to customize the scripts in this reposit
 
 | Class|  Script Name | Description |
 | --- | --- |--- |
-| ClassificationDataset | ClassificationModels  | returns a torch tensor per modality and labels for each sample
-| RegressionDataset | RegressionModels  | returns a torch tensor per modality and targets for each sample
+| ClassificationDataset | ClassificationModels  | Transforms the input modalities to torch tensors, constructs the classification labels from the affect values, and handles the data batches.
+| RegressionDataset | RegressionModels  | Transforms the input modalities and affect targets to torch tensors and handles the data batches.
 
 | Method|  Class | Script Name| Description |
 | --- | --- | ---|--- |
