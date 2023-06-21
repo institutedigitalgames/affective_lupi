@@ -56,7 +56,7 @@ This section provides guidelines on how to customize the scripts in this reposit
 
 | Method|  Class | Script Name| Description |
 | --- | --- | ---|--- |
-| trainig_step | Model Classes | ClassificationModels, RegressionModels| Performs a batch step on the training set
+| training_step | Model Classes | ClassificationModels, RegressionModels| Performs a batch step on the training set
 | validation_step | Model Classes  | ClassificationModels, RegressionModels| Performs a batch step on the val set
 | test_step | Model Classes  | ClassificationModels, RegressionModels| Performs a batch step on the test set
 
