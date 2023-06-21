@@ -43,7 +43,7 @@ This section provides guidelines on how to customize the scripts in this reposit
 | Function|  Script Name | Description |
 | --- | --- |--- |
 | classification_data | ClassificationModels  | returns the participant ids and a dataframe that contains frame paths and minmax normalized features while discarding ambiguous affect values 
-| regression_data | CRegressionionModels  | returns the participant ids and a dataframe that contains frame paths and minmax normalized features along with the raw affect trace values 
+| regression_data | RegressionionModels  | returns the participant ids and a dataframe that contains frame paths and minmax normalized features along with the raw affect trace values 
 
 
 
